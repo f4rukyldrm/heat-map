@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body  {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    color: #ddd;
+}
+
+#title {
+    font-size: 28px;
+    color: #ddd;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+#description {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: -30px;
+}
+
+.cell:hover {
+    fill: #333;
+}
+
+g {
+    color: #ddd;
+}
+
+#tooltip {
+    width: 115px;
+    max-height: 125px;
+    padding: 7.5px;
+    background-color: rgb(51, 51, 51, .8);
+    color: #ddd;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline;
+}
